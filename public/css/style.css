@@ -1,0 +1,34 @@
+.top-bar {
+  margin-bottom: 20px;
+}
+
+.books {
+  text-align: center;
+}
+
+.books p {
+  font-size: 15px;
+}
+
+.books h4 {
+  margin-top: 15px;
+}
+
+.price {
+  margin: 5px;
+  font-size: 18px;
+}
+
+span {
+  color: green;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px #ccc solid;
+  border-radius: 50%;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+}

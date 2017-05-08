@@ -1,5 +1,41 @@
 {>"layouts/master" /}
 
 {<body}
-    <h1>{@pre type="content" key="greeting"/}</h1>
+
+  <div class="large-3 columns books">
+    <img src="/img/pythonML.png">
+    <h4>Python ML</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="price">Buy it for <span>£20.99</span></div>
+    <br />
+    <a href="/books/details/1" class="button small">Book Details</a>
+  </div>
+
+  <div class="large-3 columns books">
+    <img src="/img/awsCloud.jpeg">
+    <h4>Get in the cloud</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="price">Buy it for <span>£19.23</span></div>
+    <br />
+    <a href="/books/details/1" class="button small">Book Details</a>
+  </div>
+
+  <div class="large-3 columns books">
+    <img src="/img/pythonML2.jpeg">
+    <h4>Python ML Part 2</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="price">Buy it for <span>£20.45</span></div>
+    <br />
+    <a href="/books/details/1" class="button small">Book Details</a>
+  </div>
+
+  <div class="large-3 columns books">
+    <img src="/img/kali.jpeg">
+    <h4>Step Up</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    <div class="price">Buy it for <span>£20.90</span></div>
+    <br />
+    <a href="/books/details/1" class="button small">Book Details</a>
+  </div>
+
 {/body}
