@@ -2,40 +2,15 @@
 
 {<body}
 
-  <div class="large-3 columns books">
-    <img src="/img/pythonML.png">
-    <h4>Python ML</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    <div class="price">Buy it for <span>£20.99</span></div>
-    <br />
-    <a href="/books/details/1" class="button small">Book Details</a>
-  </div>
-
-  <div class="large-3 columns books">
-    <img src="/img/awsCloud.jpeg">
-    <h4>Get in the cloud</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    <div class="price">Buy it for <span>£19.23</span></div>
-    <br />
-    <a href="/books/details/1" class="button small">Book Details</a>
-  </div>
-
-  <div class="large-3 columns books">
-    <img src="/img/pythonML2.jpeg">
-    <h4>Python ML Part 2</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    <div class="price">Buy it for <span>£20.45</span></div>
-    <br />
-    <a href="/books/details/1" class="button small">Book Details</a>
-  </div>
-
-  <div class="large-3 columns books">
-    <img src="/img/kali.jpeg">
-    <h4>Step Up</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    <div class="price">Buy it for <span>£20.90</span></div>
-    <br />
-    <a href="/books/details/1" class="button small">Book Details</a>
-  </div>
+  {#books}
+    <div class="large-3 columns books end">
+      <img src="/img/{.cover}">
+      <h4>{.title}</p>
+      <p>{.truncText}</p>
+      <div class="price">Buy it for <span>£{.price}</span></div>
+      <br />
+      <a href="/books/details/{._id}" class="button small">Book Details</a>
+    </div>
+  {/books}
 
 {/body}
