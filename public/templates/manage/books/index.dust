@@ -1,2 +1,31 @@
 {>"layouts/manage" /}
-INDEX BOOKS
+{<body}
+
+  <h2>Books</h2>
+  <p><a href="/manage/books/add">Add Book</a></p>
+
+  <table>
+    <thead>
+      <tr>
+        <th width=200>ID</td>
+        <th width=200>Title</td>
+        <th width=200>Category</td>
+        <th width=180></td>
+        <th width=180></td>
+      </tr>
+    </thead>
+
+    <tbody>
+      {#books}
+        <tr>
+          <td>{._id}</td>
+          <td>{._title}</td>
+          <td>{.category}</td>
+          <td><a class="button" href="/manage/books/edit">Edit</a></td>
+          <td><a class="button alert removeButton" href="/manage/books/delete">Remove</a></td>
+        </tr>
+      {/books}
+    </tbody>
+  </table>
+
+{/body}
