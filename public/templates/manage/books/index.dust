@@ -19,10 +19,10 @@
       {#books}
         <tr>
           <td>{._id}</td>
-          <td>{._title}</td>
+          <td>{.title}</td>
           <td>{.category}</td>
-          <td><a class="button" href="/manage/books/edit">Edit</a></td>
-          <td><a class="button alert removeButton" href="/manage/books/delete">Remove</a></td>
+          <td><a class="button" href="/manage/books/edit/{._id}">Edit</a></td>
+          <td><a class="button alert removeButton" href="/manage/books/delete/{._id}">Remove</a></td>
         </tr>
       {/books}
     </tbody>
